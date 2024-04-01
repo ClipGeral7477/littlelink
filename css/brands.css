@@ -90,8 +90,8 @@ button:hover,
 .icon {
   padding: 0px 8px 3.5px 0px;
   vertical-align: middle;
-  width: 70px; /* Ajuste a largura da imagem conforme necessário */
-  height: 70px; /* Ajuste a altura da imagem conforme necessário */
+  width: 50%; /* Define a largura da imagem como 100% do tamanho do botão */
+  height: auto; /* Mantém a altura automática para manter a proporção */
 }
 
 /* Brand Styles
