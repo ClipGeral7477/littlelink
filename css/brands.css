@@ -52,7 +52,11 @@ body {
 
 .social-buttons .icon {
   width: 30px; /* Defina a largura desejada para os ícones */
-  height: auto; /* Mantém a altura automática para manter a proporção */
+  height: auto; /* Defina a altura desejada para os ícones */
+  margin-right: 5px; /* Adiciona um pequeno espaço entre o ícone e o texto */
+  display: flex; /* Use flexbox para alinhar o ícone */
+  justify-content: center; /* Centralize horizontalmente */
+  align-items: center; /* Centralize verticalmente */
 }
 
 @media (max-width: 600px) {
