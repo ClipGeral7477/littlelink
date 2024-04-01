@@ -38,6 +38,17 @@ body {
   height: auto; /* Mantenha a altura automática para manter a proporção */
 }
 
+/* Estilos para a fila horizontal de botões das redes sociais */
+.social-buttons {
+  display: flex; /* Use flexbox para alinhar os botões horizontalmente */
+  justify-content: center; /* Centralize os botões horizontalmente */
+  margin-top: 20px; /* Adicione margem superior para espaçamento */
+}
+
+.social-buttons .button {
+  margin: 0 5px; /* Adicione margem entre os botões para espaçamento */
+}
+
 /* Buttons */
 .button,
 button {
