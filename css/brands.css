@@ -30,10 +30,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-  background-image: url(background.jpg); /* Corrija o caminho da imagem de fundo */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #0B4251; /* Defina a cor de fundo desejada */
 }
 
 .avatar {
