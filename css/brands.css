@@ -102,6 +102,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Wikiluck */
+.button.button-wikiluck {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFF002;
+}
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
 /* Discord */
 .button.button-discord {
   color: #ffffff;
