@@ -29,6 +29,77 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  flex: 1;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.button img.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.button-content {
+  flex: 1;
+  text-align: left;
+}
+
+.button-info {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.info-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expand-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.expand-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .button-container .button-text,
+  .button-container .button-subtext {
+    display: none;
+  }
+}
+
 .button,
 button {
   display: inline-block;
