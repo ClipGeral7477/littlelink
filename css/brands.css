@@ -29,6 +29,11 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.avatar {
+  width: 300px; /* Defina a largura desejada para a imagem */
+  height: auto; /* Mantenha a altura automática para manter a proporção */
+}
+
 /* Buttons */
 .button,
 button {
