@@ -49,6 +49,11 @@ body {
   margin: 0 5px; /* Adicione margem entre os botões para espaçamento */
 }
 
+.social-buttons .icon {
+  width: 30px; /* Defina a largura desejada para os ícones */
+  height: auto; /* Mantém a altura automática para manter a proporção */
+}
+
 /* Buttons */
 .button,
 button {
