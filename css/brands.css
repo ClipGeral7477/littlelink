@@ -49,10 +49,12 @@ body {
 .social-button {
   display: flex; /* Use flexbox para alinhar os itens vertical e horizontalmente */
   justify-content: center; /* Centralize horizontalmente */
+  margin-left: auto; /* Centralize completamente os botões horizontalmente */
+  margin-right: auto; /* Centralize completamente os botões horizontalmente */
 }
 
 .social-button .icon {
-  margin-right: 0px; /* Adicione uma margem à direita para separar o ícone do texto */
+  margin-right: 5px; /* Adicione uma margem à direita para separar o ícone do texto */
 }
 
 /* Buttons */
