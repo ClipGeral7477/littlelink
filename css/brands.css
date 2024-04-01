@@ -45,13 +45,13 @@ body {
   margin-top: 10px; /* Adicione margem superior para espaçamento */
 }
 
-.social-button {
-  margin-left: auto; /* Centralize completamente os botões horizontalmente */
-  margin-right: auto; /* Centralize completamente os botões horizontalmente */
+.social-buttons .button {
+  margin: 0 5px; /* Adicione margem entre os botões para espaçamento */
 }
 
-.social-button .icon {
-  margin-right: 5px; /* Adicione uma margem à direita para separar o ícone do texto */
+.social-buttons .icon {
+  width: 30px; /* Defina a largura desejada para os ícones */
+  height: auto; /* Mantém a altura automática para manter a proporção */
 }
 
 
