@@ -116,9 +116,7 @@ button:hover,
 .icon {
   padding: 0px 8px 3.5px 0px;
   vertical-align: middle;
-  width: 20%; /* Define a largura da imagem como 100% do tamanho do botão */
-  height: 20%; /* Mantém a altura automática para manter a proporção */
-  margin-right: 10px; /* Adiciona margem à direita da imagem para espaçamento */
+  margin-right: 0; /* Remova a margem à direita */
 }
 
 /* Brand Styles
