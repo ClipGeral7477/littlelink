@@ -39,6 +39,13 @@ body {
   margin-bottom: 10px; /* Ajuste a margem inferior conforme desejado */
 }
 
+/* Estilos CSS para o texto dos parceiros */
+.partners-text {
+    margin-top: 30px; /* Ajuste conforme necessário */
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+
 /* Estilos para os botões das redes sociais */
 .social-buttons {
   display: flex; /* Use flexbox para alinhar os itens vertical e horizontalmente */
