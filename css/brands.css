@@ -119,7 +119,7 @@ button:hover,
   color: #FFFFFF;
   background-color: #F9F0A4
   opacity: .4;
-  border: 1px solid #FFF002;
+  border: 2px solid #FFF002;
 }
 .button.button-x:hover,
 .button.button-x:focus {
@@ -130,7 +130,8 @@ button:hover,
 .button.button-lebull {
   color: #FFFFFF;
   background-color: #FAC87C;
-  border: 1px solid #FF9B00;
+  opacity: .4;
+  border: 2px solid #FF9B00;
 }
 .button.button-x:hover,
 .button.button-x:focus {
@@ -141,7 +142,8 @@ button:hover,
 .button.button-ninecasino {
   color: #FFFFFF;
   background-color: #F9F0A4;
-  border: 1px solid #FFF002;
+  opacity: .4;
+  border: 2px solid #FFF002;
 }
 .button.button-x:hover,
 .button.button-x:focus {
@@ -152,7 +154,8 @@ button:hover,
 .button.button-5gringos {
   color: #FFFFFF;
   background-color: #F9F0A4;
-  border: 1px solid #FFF002;
+  opacity: .4;
+  border: 2px solid #FFF002;
 }
 .button.button-x:hover,
 .button.button-x:focus {
@@ -163,6 +166,8 @@ button:hover,
 .button.button-horuscasino {
   color: #ffffff;
   background-color: #5865f2;
+  opacity: .4;
+  border: 2px solid #FFF002;
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
