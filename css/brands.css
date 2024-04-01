@@ -30,7 +30,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .avatar {
-  width: 300px; /* Defina a largura desejada para a imagem */
+  width: 200px; /* Defina a largura desejada para a imagem */
   height: auto; /* Mantenha a altura automática para manter a proporção */
 }
 
