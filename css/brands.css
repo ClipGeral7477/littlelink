@@ -44,7 +44,8 @@ body {
 /* Buttons */
 .button,
 button {
-  display: inline-block;
+  display: flex; /* Use flexbox para alinhar os itens */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
   text-decoration: none;
   text-align: center;
   font-size: 18px;
@@ -55,6 +56,10 @@ button {
   margin: 0 auto; /* Adicione esta linha para centralizar os botões */
   margin-bottom: 10px;
 }
+
+.button span,
+button span {
+  margin-left: 10px; /* Adiciona margem à esquerda do texto para espaçamento */
 
 /* Botões para telas maiores que 600px (por exemplo, para computadores) */
 @media (min-width: 600px) {
@@ -99,6 +104,7 @@ button:hover,
   vertical-align: middle;
   width: 20%; /* Define a largura da imagem como 100% do tamanho do botão */
   height: 20%; /* Mantém a altura automática para manter a proporção */
+  margin-right: 10px; /* Adiciona margem à direita da imagem para espaçamento */
 }
 
 /* Brand Styles
