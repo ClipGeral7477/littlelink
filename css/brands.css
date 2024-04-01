@@ -29,23 +29,20 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Buttons */
 .button,
 button {
   display: inline-block;
   text-decoration: none;
-  height: 100%;
   text-align: center;
-  vertical-align: middle;
   font-size: 18px;
-  width: 200px;
   font-weight: 700;
-  line-height: 20px;
-  padding: 14px 12px 12px 12px;
-  letter-spacing: 0.1px;
-  white-space: wrap;
-  outline: none;
+  padding: 14px 20px; /* Aumente o padding horizontal conforme necessário */
   border-radius: 8px;
   cursor: pointer;
+  margin: 0 auto; /* Adicione esta linha para centralizar os botões */
+}
+
   
 }     
 button:hover,
