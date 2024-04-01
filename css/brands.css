@@ -117,7 +117,8 @@ button:hover,
 /* Wikiluck */
 .button.button-wikiluck {
   color: #FFFFFF;
-  background-color: #F9F0A4;
+  background-color: #F9F0A4
+  opacity: .4;
   border: 1px solid #FFF002;
 }
 .button.button-x:hover,
