@@ -51,7 +51,7 @@ body {
 }
 
 .social-buttons .icon {
-  width: 10px; /* Defina a largura desejada para os ícones */
+  width: 30px; /* Defina a largura desejada para os ícones */
   height: auto; /* Mantém a altura automática para manter a proporção */
 }
 
