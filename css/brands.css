@@ -38,17 +38,14 @@ body {
   height: auto; /* Mantenha a altura automática para manter a proporção */
 }
 
-/* Estilos para a fila horizontal de botões das redes sociais */
+/* Estilos para os botões das redes sociais */
 .social-buttons {
   display: flex; /* Use flexbox para alinhar os itens vertical e horizontalmente */
-  align-items: center; /* Centralize verticalmente */
   justify-content: center; /* Centralize horizontalmente */
   margin-top: 10px; /* Adicione margem superior para espaçamento */
 }
 
 .social-button {
-  display: flex; /* Use flexbox para alinhar os itens vertical e horizontalmente */
-  justify-content: center; /* Centralize horizontalmente */
   margin-left: auto; /* Centralize completamente os botões horizontalmente */
   margin-right: auto; /* Centralize completamente os botões horizontalmente */
 }
@@ -56,6 +53,7 @@ body {
 .social-button .icon {
   margin-right: 5px; /* Adicione uma margem à direita para separar o ícone do texto */
 }
+
 
 /* Buttons */
 .button,
