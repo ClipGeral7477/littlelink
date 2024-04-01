@@ -37,14 +37,29 @@ button {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  width: 500px; /* Defina uma largura fixa para os botões */
-  height: 60px; /* Defina uma altura fixa para os botões (opcional) */
   padding: 14px 20px; /* Aumente o padding horizontal conforme necessário */
   border-radius: 8px;
   cursor: pointer;
   margin: 0 auto; /* Adicione esta linha para centralizar os botões */
 }
 
+/* Botões para telas maiores que 600px (por exemplo, para computadores) */
+@media (min-width: 600px) {
+  .button,
+  button {
+    width: 200px; /* Largura fixa para telas maiores */
+    max-width: none; /* Remover largura máxima */
+  }
+}
+
+/* Botões para telas menores que 600px (por exemplo, para dispositivos móveis) */
+@media (max-width: 600px) {
+  .button,
+  button {
+    width: 80%; /* Largura relativa para dispositivos móveis */
+    max-width: 200px; /* Largura máxima para dispositivos móveis */
+  }
+}
   
 }     
 button:hover,
