@@ -47,6 +47,7 @@ body {
 }
 
 .social-buttons .button {
+    text-align: center; /* Centralize o conteúdo dos botões, incluindo os ícones */
   margin: 0 5px; /* Adicione margem entre os botões para espaçamento */
 }
 
