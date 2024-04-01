@@ -90,8 +90,8 @@ button:hover,
 .icon {
   padding: 0px 8px 3.5px 0px;
   vertical-align: middle;
-  width: 50%; /* Define a largura da imagem como 100% do tamanho do botão */
-  height: auto; /* Mantém a altura automática para manter a proporção */
+  width: 20%; /* Define a largura da imagem como 100% do tamanho do botão */
+  height: 20%; /* Mantém a altura automática para manter a proporção */
 }
 
 /* Brand Styles
@@ -110,7 +110,7 @@ button:hover,
 /* Wikiluck */
 .button.button-wikiluck {
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #F9F0A4;
   border: 1px solid #FFF002;
 }
 .button.button-x:hover,
@@ -118,8 +118,41 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Discord */
-.button.button-discord {
+/* LeBull */
+.button.button-lebull {
+  color: #FFFFFF;
+  background-color: #F9F0A4;
+  border: 1px solid #FFF002;
+}
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
+/* NineCasino */
+.button.button-ninecasino {
+  color: #FFFFFF;
+  background-color: #F9F0A4;
+  border: 1px solid #FFF002;
+}
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
+/* 5Gringos */
+.button.button-5gringos {
+  color: #FFFFFF;
+  background-color: #F9F0A4;
+  border: 1px solid #FFF002;
+}
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
+/* HorusCasino */
+.button.button-horuscasino {
   color: #ffffff;
   background-color: #5865f2;
 }
