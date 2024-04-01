@@ -59,7 +59,7 @@ body {
   display: flex; /* Use flexbox para alinhar o ícone */
   justify-content: center; /* Centralize horizontalmente */
   align-items: center; /* Centralize verticalmente */
-  margin-right: 15px; /* Adicione margem à direita dos ícones */
+  margin-right: 95px; /* Adicione margem à direita dos ícones */
 }
 
 /* Buttons */
