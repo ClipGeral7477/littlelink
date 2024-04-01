@@ -67,8 +67,8 @@ button:hover,
 .icon {
   padding: 0px 8px 3.5px 0px;
   vertical-align: middle;
-  width: 24px; /* Ajuste a largura da imagem conforme necessário */
-  height: 24px; /* Ajuste a altura da imagem conforme necessário */
+  width: 70px; /* Ajuste a largura da imagem conforme necessário */
+  height: 70px; /* Ajuste a altura da imagem conforme necessário */
 }
 
 /* Brand Styles
