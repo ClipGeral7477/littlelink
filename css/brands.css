@@ -46,13 +46,13 @@ body {
   margin-top: 10px; /* Adicione margem superior para espaçamento */
 }
 
-.social-buttons .button {
-  margin: 0 5px; /* Adicione margem entre os botões para espaçamento */
+.social-button {
+  display: flex; /* Use flexbox para alinhar os itens vertical e horizontalmente */
+  justify-content: center; /* Centralize horizontalmente */
 }
 
-.social-buttons .icon {
-  width: 30px; /* Defina a largura desejada para os ícones */
-  height: auto; /* Mantém a altura automática para manter a proporção */
+.social-button .icon {
+  margin-right: 0px; /* Adicione uma margem à direita para separar o ícone do texto */
 }
 
 /* Buttons */
