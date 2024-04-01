@@ -88,6 +88,7 @@ button:hover,
 }
 
 /* Amazon */
+<a href="https://www.youtube.com" class="button button-default">Texto do Botão</a>
 .button.button-amazon {
   color: #000000;
   background-color: #FFFFFF;
