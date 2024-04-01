@@ -59,14 +59,6 @@ body {
   align-items: center; /* Centralize verticalmente */
 }
 
-@media (max-width: 600px) {
-  .button,
-  button {
-    width: 80%; /* Largura relativa para dispositivos móveis */
-    max-width: 200px; /* Largura máxima para dispositivos móveis */
-  }
-
-
 /* Buttons */
 .button,
 button {
