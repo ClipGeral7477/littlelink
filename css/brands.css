@@ -36,6 +36,7 @@ body {
 .avatar {
   width: 200px; /* Defina a largura desejada para a imagem */
   height: auto; /* Mantenha a altura automática para manter a proporção */
+  margin-bottom: 10px; /* Ajuste a margem inferior conforme desejado */
 }
 
 /* Estilos para os botões das redes sociais */
