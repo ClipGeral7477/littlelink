@@ -310,15 +310,15 @@ button:hover,
 .button.button-discogs-alt:focus {
   filter: brightness(90%);
 }
-
 /* Discord */
 .button.button-discord {
   color: #ffffff;
-  background-color: #5865f2;
-}
-.button.button-discord:hover,
-.button.button-discord:focus {
-  filter: brightness(90%);
+  background-color: #7289da;
+  border: none;
+  padding: 14px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
 /* Dribbble */
