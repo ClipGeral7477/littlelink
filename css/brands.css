@@ -30,7 +30,7 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-  background-image: url(images/background.jpg); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho da sua imagem de fundo */
+  background-image: images/background.jpg; /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho da sua imagem de fundo */
   background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento pai */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita a repetição da imagem */
