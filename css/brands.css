@@ -46,23 +46,18 @@ body {
   margin-top: 5px; /* Adicione margem superior para espaçamento */
 }
 
-.social-buttons .button {
-  display: flex; /* Use flexbox para alinhar os itens horizontalmente */
-  align-items: center; /* Alinhe os itens verticalmente ao centro */
-  justify-content: center; /* Alinhe os itens horizontalmente ao centro */
-  margin: 0 5px; /* Adicione margem entre os botões para espaçamento */
-  padding: 8px 12px; /* Ajuste o padding conforme necessário */
-  font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
-  width: auto; /* Defina a largura automática para que os botões se ajustem ao conteúdo */
+/* Estilos para os ícones dos botões das redes sociais */
+.social-buttons {
+  display: flex; /* Use flexbox para alinhar os ícones */
+  justify-content: center; /* Centralize horizontalmente */
+  align-items: center; /* Centralize verticalmente */
+  margin-top: 5px; /* Adicione margem superior para espaçamento */
 }
 
 .social-buttons .icon {
   width: 30px; /* Defina a largura desejada para os ícones */
-  height: auto; /* Defina a altura desejada para os ícones */
-  display: flex; /* Use flexbox para alinhar o ícone */
-  justify-content: center; /* Centralize horizontalmente */
-  align-items: center; /* Centralize verticalmente */
-  margin-left: 15px; /* Adicione margem à direita dos ícones */
+  height: auto; /* Mantenha a altura automática para manter a proporção */
+  margin: 0 5px; /* Adicione margem entre os ícones para espaçamento */
 }
 
 /* Buttons */
