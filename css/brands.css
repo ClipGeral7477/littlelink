@@ -47,7 +47,7 @@ button {
 @media (min-width: 600px) {
   .button,
   button {
-    width: 200px; /* Largura fixa para telas maiores */
+    width: 500px; /* Largura fixa para telas maiores */
     max-width: none; /* Remover largura máxima */
   }
 }
