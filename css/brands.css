@@ -55,10 +55,17 @@ body {
   margin-top: 5px; /* Adicione margem superior para espaçamento */
 }
 
-.social-buttons .icon {
+.social-buttons .button-icon {
+  margin: 0 5px; /* Adicione margem entre os ícones para espaçamento */
+}
+
+.social-buttons .button-icon:hover img {
+  filter: brightness(90%);
+}
+
+.social-buttons .button-icon img {
   width: 30px; /* Defina a largura desejada para os ícones */
   height: auto; /* Mantenha a altura automática para manter a proporção */
-  margin: 0 5px; /* Adicione margem entre os ícones para espaçamento */
   cursor: pointer; /* Adicione a propriedade cursor para indicar que os ícones são clicáveis */
 }
 
