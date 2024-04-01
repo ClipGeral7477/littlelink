@@ -42,6 +42,7 @@ body {
 .social-buttons {
   display: flex; /* Use flexbox para alinhar os itens vertical e horizontalmente */
   justify-content: center; /* Centralize horizontalmente */
+  align-items: center; /* Centralize verticalmente */
   margin-top: 10px; /* Adicione margem superior para espaçamento */
 }
 
