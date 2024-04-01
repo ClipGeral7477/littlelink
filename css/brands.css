@@ -151,8 +151,7 @@ button:hover,
 /* Wikiluck */
 .button.button-wikiluck {
   color: #FFFFFF;
-  background-color: #F9F0A4
-  opacity: .4;
+  background-color: #2F778A
   border: 2px solid #FFF002;
 }
 .button.button-x:hover,
