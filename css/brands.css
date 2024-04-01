@@ -55,6 +55,13 @@ body {
   height: auto; /* Mantém a altura automática para manter a proporção */
 }
 
+@media (max-width: 600px) {
+  .button,
+  button {
+    width: 80%; /* Largura relativa para dispositivos móveis */
+    max-width: 200px; /* Largura máxima para dispositivos móveis */
+  }
+
 
 /* Buttons */
 .button,
