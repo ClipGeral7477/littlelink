@@ -40,8 +40,9 @@ body {
 
 /* Estilos para a fila horizontal de botões das redes sociais */
 .social-buttons {
-  display: flex; /* Use flexbox para alinhar os botões horizontalmente */
-  justify-content: center; /* Centralize os botões horizontalmente */
+  display: flex; /* Use flexbox para alinhar os itens vertical e horizontalmente */
+  align-items: center; /* Centralize verticalmente */
+  justify-content: center; /* Centralize horizontalmente */
   margin-top: 10px; /* Adicione margem superior para espaçamento */
 }
 
