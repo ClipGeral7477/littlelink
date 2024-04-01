@@ -56,8 +56,8 @@ body {
 }
 
 .social-buttons .button-icon {
-   display: inline-block;
-  margin: 0 5px; /* Adicione margem entre os ícones para espaçamento */
+  display: inline-block;
+  margin: 0 15px; /* Adicione margem entre os ícones para espaçamento */
 }
 
 .social-buttons .button-icon:hover img {
