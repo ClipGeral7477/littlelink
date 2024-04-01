@@ -29,6 +29,10 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+body {
+  background-color: #B5FCE4; /* Defina a cor de fundo desejada */
+}
+
 .avatar {
   width: 200px; /* Defina a largura desejada para a imagem */
   height: auto; /* Mantenha a altura automática para manter a proporção */
