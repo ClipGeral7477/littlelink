@@ -30,10 +30,10 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-  background-image: url('background.jpg'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho da sua imagem de fundo */
-  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento pai */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-image: url(background.jpg); /* Corrija o caminho da imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .avatar {
