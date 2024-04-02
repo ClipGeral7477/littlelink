@@ -33,54 +33,6 @@ body {
   background-color: #0B4251; /* Defina a cor de fundo desejada */
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.content {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
-}
-
-.left-button {
-    margin-bottom: 10px;
-}
-
-.right-content {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.right-content img {
-    margin-left: 20px;
-    max-width: 100px;
-}
-
-.square-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bottom-buttons button {
-    margin-right: 10px;
-}
-
 .avatar {
   width: 200px; /* Defina a largura desejada para a imagem */
   height: auto; /* Mantenha a altura automática para manter a proporção */
