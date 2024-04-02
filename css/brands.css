@@ -148,6 +148,13 @@ button:hover,
   filter: brightness(90%);
 }
 
+.button-container {
+    background-color: #ffffff; /* Cor de fundo do retângulo */
+    padding: 20px; /* Espaçamento interno do retângulo */
+    border-radius: 10px; /* Raio da borda do retângulo */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra do retângulo */
+}
+
 /* Wikiluck */
 .button.button-wikiluck {
   color: #FFFFFF;
